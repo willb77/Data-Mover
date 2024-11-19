@@ -1,0 +1,15 @@
+pubsub:
+  project_id: "go-pub-sub-kafka-data-mover"
+  subscription_id: "pub-sub-data-mover"
+
+kafka:
+  bootstrap_servers: "pkc-p11xm.us-east-1.aws.confluent.cloud:9092"
+  security_protocol: "SASL_SSL"
+  sasl_mechanisms: "PLAIN"
+  sasl_username: "RCHXLLAJE7BUBGOB"
+  sasl_password: "EfhBA4fq+V3+8LOmkMR0Tk4+Sz5Yqqy9gtwbLHgqEsNOMzB9AfLNrAKtt/MwvcgD"
+  topic: "kafka-data-mover"
+
+app:
+  name: "pubsub-kafka-bridge"
+  log_level: "info"
