@@ -3,11 +3,11 @@ pubsub:
   subscription_id: "pub-sub-data-mover"
 
 kafka:
-  bootstrap_servers: "pkc-p11xm.us-east-1.aws.confluent.cloud:9092"
+  bootstrap_servers: "<your-server-not-mine>"
   security_protocol: "SASL_SSL"
   sasl_mechanisms: "PLAIN"
-  sasl_username: "RCHXLLAJE7BUBGOB"
-  sasl_password: "EfhBA4fq+V3+8LOmkMR0Tk4+Sz5Yqqy9gtwbLHgqEsNOMzB9AfLNrAKtt/MwvcgD"
+  sasl_username: "<your-keys-not-mine>"
+  sasl_password: "<your-keys-not-mine>"
   topic: "kafka-data-mover"
 
 app:
